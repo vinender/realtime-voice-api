@@ -21,7 +21,7 @@ $ npm i openai/openai-realtime-api-beta --save
 ```
 
 ```javascript
-import { RealtimeClient } from '@openai/realtime-api-beta';
+import { RealtimeClient } from '@vinender/realtime-voice-api';
 
 const client = new RealtimeClient({ apiKey: process.env.OPENAI_API_KEY });
 
@@ -58,7 +58,7 @@ You can use this client directly from the browser in e.g. React or Vue apps.
 In order to instantiate the client in a browser environment, use:
 
 ```javascript
-import { RealtimeClient } from '@openai/realtime-api-beta';
+import { RealtimeClient } from '@vinender/realtime-voice-api';
 
 const client = new RealtimeClient({
   apiKey: process.env.OPENAI_API_KEY,
